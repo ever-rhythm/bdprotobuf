@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest version="1.0">
+	<name>bdprotobuf</name>
+	<friendly-name>bdprotobuf</friendly-name>
+	<summary>tb bdprotobuf HHVM扩展</summary>
+	<version>1.0.0.1</version>
+	<catalog>extension</catalog>
+	<context>online</context>
+	<vendor>
+		<id>odp</id>
+		<name>ODP</name>
+		<mail>odp@baidu.com</mail>
+	</vendor>
+	<author>
+		<name>zhangwei26</name>
+		<mail>zhangwei26@baidu.com</mail>
+	</author>
+</manifest>

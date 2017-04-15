@@ -1,0 +1,6 @@
+1.0.0.1 2015-11-26
+	* fix: import不存在的文件或者路径中有./或../会core
+	* add: 支持unit64
+
+1.0.0.0	2015-11-4
+	* add: bdprotobuf 扩展，支持array到string互转 

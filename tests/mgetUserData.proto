@@ -1,0 +1,17 @@
+import "common.proto";
+
+//mgetUserData input
+message MgetUserDataReq
+{
+	optional string data_tpl = 1;
+	repeated uint64 user_id = 2;
+	optional uint32 get_icon = 3;
+}
+
+//mgetUserData output
+message MgetUserDataRes
+{
+	required uint32 errno = 1;
+	required string errmsg = 2;
+	optional bytes user_info = 3;
+}
